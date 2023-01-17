@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 nav{
     background-color: rgb(194, 110, 42);
     color: white;
@@ -21,7 +22,6 @@ nav div{
 
 #menu ul li{
     display: inline;
-    width: 60px;
     margin: 10px 25px;
     text-transform: uppercase;
 }
@@ -32,6 +32,10 @@ nav div{
     border: none;
     padding:6px 20px;
     font-size: 12px;
+}
+
+#submit_button:hover{
+    background-color: bisque;
 }
 
 #search_box{
@@ -47,7 +51,7 @@ nav div{
 #left_bar{
     width: 78%;
     min-height: 400px;
-    background-color: hsl(0, 0%, 95%);
+    background-color: #f2f2f2;
     margin-right: 10px;
     float: left;
 }
