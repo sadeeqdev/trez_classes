@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
 }
 nav{
     background-color: rgb(194, 110, 42);
@@ -42,29 +41,76 @@ nav div{
 
 #content{
     padding: 20px;
-}
-
-#content div{
-    float: left;
+    height: 400px;
 }
 
 #left_bar{
-    width: 60%;
+    width: 78%;
+    min-height: 400px;
+    background-color: hsl(0, 0%, 95%);
+    margin-right: 10px;
+    float: left;
 }
 
 #right_bar{
-    width: 30%;
-    padding-left: 30px;
+    width: 20%;
     background-color: rgb(194, 110, 42);
-    height: 200px;
+    min-height: 400px;
+    float: right;
+}
+
+.left_bar_content{
+    padding: 10px;
+}
+
+.article_header{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p{
+    font-family: Garamond, serif;
+    color: #444;
+    padding: 10px 0;
+}
+
+h2{
+    font-family: 'Brush Script MT', cursive;
+}
+
+#right_bar h1{
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+#right_bar ul li{
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+#right_bar ul{
+    padding-left: 30px;
+}
+
+footer{
+    padding: 10px 20px;
+    background-color: rgb(194, 110, 42);
+}
+
+footer p{
+    color: white;
 }
 
 
 /* 
-p{
-    background-color: red;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid green;
-    outline: 10px solid blue;
-} */
+    p{
+        background-color: red;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid green;
+        outline: 10px solid blue;
+    } 
+*/
