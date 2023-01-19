@@ -26,6 +26,30 @@ nav div{
     text-transform: uppercase;
 }
 
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+#menu ul li a:active{
+    color: blue;
+}
+
+#menu ul li a:visited{
+    color: red;
+}
+
+.left_bar_content h1:first-child{
+    color: blue;
+}
+
+
+
 #submit_button{
     background-color: black;
     color: white;
@@ -76,7 +100,6 @@ nav div{
 
 p{
     font-family: Garamond, serif;
-    color: #444;
     padding: 10px 0;
 }
 
