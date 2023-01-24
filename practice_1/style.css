@@ -13,7 +13,6 @@ nav{
 #search{
     float: right;
     margin-right: 20px
-
 }
 
 nav div{
@@ -47,8 +46,6 @@ nav div{
 .left_bar_content h1:first-child{
     color: blue;
 }
-
-
 
 #submit_button{
     background-color: black;
