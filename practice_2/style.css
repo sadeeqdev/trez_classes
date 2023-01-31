@@ -11,7 +11,6 @@ nav{
     height: 60px;
     padding: 0 20px;
     align-items: center;
-    position: sticky;
     top: 0;
     box-shadow: 1px 3px 15px #999;
 }
@@ -128,10 +127,95 @@ h2{
     justify-content: center;
 }
 
+#footer{
+    padding: 20px;
+}
 
 footer{
-    padding: 20px;
     background-color: rgb(194, 110, 42);
     width: 100%;
     color: white;
 }
+
+/* Use a media query to add a breakpoint at 800px: */
+/* @media screen and (max-width: 768px) {
+    nav{
+        background-color: rgb(55, 42, 194);
+    }
+
+    #menu ul li a{
+        color: rgb(227, 39, 39);
+    }
+} */
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (min-width: 360px) and (max-width:768px) {
+    nav{
+        flex-direction: column;
+        height: auto;
+        padding: 0px;
+        position: sticky;
+
+    }
+
+    #menu{
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu ul{
+        display: block;
+        width: auto;
+        margin: 0;
+    }
+
+    #menu ul li a{
+        display: block;
+        list-style-type: none;
+        padding: 10px 0;
+        border-bottom: 1px solid #cfcfcf;
+    }
+
+    #menu ul li:hover{
+        background-color: aqua;
+    }
+
+    #search{
+        padding: 10px 0;
+    }
+
+    #content{
+        display: block;
+        padding: 20px;
+        gap: 0;
+    }
+
+    #left_bar{
+        width: 100%;
+    }
+
+    #right_bar{
+        width: 100%;
+        padding: 0px;
+        height: 40vh;
+        border-radius: 8px;
+    }
+
+    #mobile_padding{
+        padding: 20px;
+    }
+
+    .bottom_content_div{
+        display: block;
+        margin: 20px 0;
+    }
+
+    .bottom_content_div div{
+        height: 200px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
