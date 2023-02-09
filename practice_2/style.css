@@ -149,13 +149,12 @@ footer{
 } */
 
 /* Use a media query to add a breakpoint at 800px: */
-@media screen and (min-width: 360px) and (max-width:768px) {
+@media screen and (min-width: 0px) and (max-width:768px) {
     nav{
         flex-direction: column;
         height: auto;
         padding: 0px;
         position: sticky;
-
     }
 
     #menu{
