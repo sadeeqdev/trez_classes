@@ -83,12 +83,14 @@ function pureFunctionExample() {
     }
 }
 
-function changeValue(){
-    numbers.push(88)
-    return numbers;
+let callChangeValue = {
+    changeValue (){
+       console.log(arguments)
+    }
 }
 
 // countNumbers()
 // printLetters(myLetters, countNumbers)
 // pureFunctionExample()
-console.log(changeValue())
+callChangeValue.changeValue([1,2,4,5,6])
+
