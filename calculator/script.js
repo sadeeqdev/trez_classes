@@ -23,9 +23,9 @@ function calculate(x, y, method){
             return add(x, y);
         case 'sub':
             return subtract(x, y)
-        case 'multiply':
+        case 'mul':
             return multiply(x, y)
-        case 'divide':
+        case 'div':
             return divide(x, y)
     }
 }
