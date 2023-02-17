@@ -1,8 +1,6 @@
 const fruits = ['mango', 'mango', 'banana', 'orange', 'apple', 'melon']
 
 const myNumbers = [1, '1', 2, 2, 4, '1', '1']
-
-
 const transaction = [230, 900, 110, 77, 811]
 
 if(fruits.includes('mango')){
@@ -30,7 +28,6 @@ const filterFruits = (value) => {
     }
     return ["Not found"]
 }
-
 
 const myName = 'Sadeeq'
 
