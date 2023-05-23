@@ -1,2 +1,2 @@
 # trez_classes
-Repository for Trez Tech software engineering bootcamp by *Sdeeqdev 
+Repository for Trez Tech software engineering bootcamp by Sadeeqdev 
